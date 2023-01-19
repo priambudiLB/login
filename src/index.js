@@ -10,6 +10,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <>
+      <p>{process.env.REACT_APP_BASEURL}</p>
       <p>Navbar</p>
       <Outlet />
     </>,
